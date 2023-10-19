@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#stopwatch{
+    font-size: 100px;
+    box-shadow: 0px 0px 10px rgb(250, 246, 246);
+    color: wheat;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+#buttons{
+    display: flex;
+}
+
+button{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    font-size: larger;
+    margin: 10px;
+    color: aquamarine;
+    width: 100px;
+    box-shadow: 5px 5px 1px;
+    background-color: chocolate;
+    transition: all 0.5s;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+button:active{
+    box-shadow: none;
+    transition: all 0.5s;
+}
